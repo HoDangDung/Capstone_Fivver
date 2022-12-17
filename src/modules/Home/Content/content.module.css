@@ -1,0 +1,33 @@
+.trusted {
+  background-color: #fafafa;
+}
+
+.trustedContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #b5b6ba;
+  padding-right: 20px;
+}
+
+.list {
+  margin-bottom: 0;
+  list-style: none;
+  padding: 0 24px;
+}
+
+.item {
+  display: inline-block;
+  padding-right: 60px;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
