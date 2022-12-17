@@ -1,19 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-
-<<<<<<< HEAD
 import { Provider } from "react-redux";
+import "bootstrap/dist/css/bootstrap.min.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 import store from "./store";
-
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import "bootstrap/dist/css/bootstrap.min.css";
-=======
-import "bootstrap/dist/css/bootstrap.min.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
->>>>>>> 7373b976bb0988c837128f4fffbc2027cfcf6e3d
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
