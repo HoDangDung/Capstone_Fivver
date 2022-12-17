@@ -1,0 +1,47 @@
+.slider {
+  margin-top: 114px;
+}
+
+.heading {
+  font-size: 34px;
+  padding-bottom: 24px;
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+}
+
+.item {
+  padding: 0 18px;
+}
+
+.link {
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+}
+
+.desc {
+  position: absolute;
+  top: 0;
+  padding: 16px;
+  width: 100%;
+}
+
+.text {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.itemHeading {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
