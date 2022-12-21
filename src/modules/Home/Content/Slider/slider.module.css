@@ -45,3 +45,7 @@
   font-size: 24px;
   font-weight: 600;
 }
+
+button.slick-arrow.slick-next {
+  background-color: #000 !important;
+}

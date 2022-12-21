@@ -1,14 +1,15 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import Carousel from "./Carousel";
 import Content from "./Content";
 import style from "./home.module.css";
 import { Link } from "react-router-dom";
 import logo from "../../imgs/logo/logo2.png";
 import cn from "classnames";
+import Header from "./Header";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <header
         className={cn(
           "container d-flex justify-content-between align-items-center",
@@ -61,11 +62,9 @@ const Home = () => {
           </li>
         </ul>
       </header>
-
       <Carousel className="container" />
-
       <Content />
-    </>
+    </div>
   );
 };
 
